@@ -1,13 +1,14 @@
 import React from "react";
 
+
 const PlayerScore = (props) => {
   return (
     <React.Fragment>
       {props.playerScores.map((scores, index) => {
         return (
-          <tr key={index}>
-            <th key={index}>{scores.n}</th>
-            <td key={index}>{scores.s}</td>
+          <tr key={index + 1}>
+            <th key={index + 2}>{scores.n}</th>
+            <td key={index + 3}>{scores.s}</td>
           </tr>
         );
       })}

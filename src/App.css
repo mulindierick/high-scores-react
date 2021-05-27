@@ -13,8 +13,16 @@
   padding: 1%;
   margin: 1%;
 }
+.tableGroupW {
+  display: flex;
+  justify-content: center;
+}
+.space{
+  padding: 1%;
+  border: 1px solid;
+}
 table {
- flex-basis: 98%;
+  flex-basis: 98%;
 }
 table {
   text-align: center;
@@ -22,12 +30,12 @@ table {
   border-collapse: collapse;
 }
 
-td{
+td {
   font-weight: 800;
   color: rgb(160, 1, 67);
-
 }
-th, td {
+th,
+td {
   font-size: 1.3rem;
   padding: 0.8%;
   border-bottom: solid black;
@@ -39,7 +47,17 @@ caption {
   color: rgb(17, 42, 168);
   text-align: center;
 }
-h1{
+h1 {
   color: rgb(17, 42, 168);
   text-align: center;
+}
+button {
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: 0px auto;
+  background-color: brown;
+  padding: 0.5%;
+  color: white;
+  outline: none;
+  border: none;
 }
